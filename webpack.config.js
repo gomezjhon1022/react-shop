@@ -8,6 +8,7 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'), //en nuestro path, crea la carpeta dist
         filename: 'bundle.js' // nombre del archivo js resultante
     },
+    mode: 'development',
     resolve: { // extensión de archivos a tomar en cuenta
         extensions: ['.js', '.jsx']
     },
