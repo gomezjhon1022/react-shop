@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import '../styles/Password.scss';
 
 const Password = () => {
   return (
@@ -17,8 +18,7 @@ const Password = () => {
         </form>
       </div>
     </div>
-
-  )
+  );
 }
 
 export default Password;
