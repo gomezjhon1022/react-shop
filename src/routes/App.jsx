@@ -10,16 +10,16 @@ import '../styles/global.css';
 const App = () => {
     return (
         <BrowserRouter>
-	        <Layout>
-	        	<Routes>
-	        		<Route exact path="/" element={<Home />} />
-	                <Route exact path="/login" element={<Password />} />
+            <Layout>
+                <Routes>
+                    <Route exact path="/" element={<Home />} />
+                    <Route exact path="/login" element={<Password />} />
                     <Route exact path="/recovery-password" element={<RecoveryPassword />} />
-	        		<Route path="*" element={<NotFound />} />
-	        	</Routes>
-	        </Layout>
+                    <Route path="*" element={<NotFound />} />
+                </Routes>
+			</Layout>
         </BrowserRouter>
-    );
+	)
 }
 
 export default App;
