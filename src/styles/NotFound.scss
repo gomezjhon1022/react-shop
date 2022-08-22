@@ -7,13 +7,13 @@
     place-items: center;
 }
 
-.container {
+.not-found-container {
     display: grid;
     grid-template-rows: auto 1fr auto;
     width: 300px;
 }
 
-.title {
+.not-found-title {
     font-size: var(--lg);
     margin-bottom: 14px;
     text-align: center;
