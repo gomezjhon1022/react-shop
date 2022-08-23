@@ -3,9 +3,9 @@ import '../styles/ProductItem.scss';
 import addCart from '@icons/bt_add_to_cart.svg';
 
 const ProductItem = () => {
-	const [cart, setCart] = useState('');
+	const [cart, setCart] = useState([]);
 	const handleClick = () => {
-		setCart('Agregado al carrito');
+		setCart([]);
 	}
 	return (
 		<div className="ProductItem">
