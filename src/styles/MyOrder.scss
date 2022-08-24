@@ -4,13 +4,14 @@
 	width: 360px;
 	padding: 24px;
 	box-sizing: border-box;
-	position: absolute;
+	position: sticky;
 	right: 0;
 	background-color: white;
 	top: 60px;
 	bottom: auto;
 	border-radius: 6px;
 	border: 1px solid var(--very-light-pink);
+	position: absolute;
 }
 
 .title-container {
@@ -53,6 +54,20 @@
 	font-weight: bold;
 }
 
+.my-order-content::-webkit-scrollbar {
+	width: 0.5rem;
+}
+
+.my-order-content::-webkit-scrollbar-thumb {
+    background-color: var(--hospital-green);
+    border-radius: 20px;
+}
+
+.my-order-content {
+	height: 350px;
+	overflow-y: scroll ;
+}
+
 .primary-button {
 	background-color: var(--hospital-green);
 	border-radius: 8px;
@@ -70,3 +85,4 @@
 		width: 100%;
 	}
 }
+
